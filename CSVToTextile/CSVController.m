@@ -45,19 +45,32 @@
     NSArray * lines = [input componentsSeparatedByString:@"\n"];
     
     BOOL firstRow = YES;
+    NSInteger colWidth = 0;
     for(NSString * line in lines){
         NSArray * components = [line componentsSeparatedByString:@","];
         
+        colWidth = ([components count] > colWidth) ? [components count] : colWidth;
+        
+        int colCount = 0;
         for(NSString * component in components){
             if([[component stringByReplacingOccurrencesOfString:@" " withString:@""] length] == 0)
                 component =@"&nbsp;";
             if(firstRow)
-                output = [output stringByAppendingFormat:@"|. %@", component];
+                output = [output stringByAppendingFormat:@"|_. %@", component];
             else
                 output = [output stringByAppendingFormat:@"| %@", component];
+            
+            colCount ++;
         }
         
-        output = [output stringByAppendingString:@"|\n"];
+        for (int c = colCount; c < colWidth; c++) {
+            if(firstRow)
+                output = [output stringByAppendingString:@"|_. &nbsp;"];
+            else
+                output = [output stringByAppendingString:@"| &nbsp;"];
+        }
+        
+        output = [output stringByAppendingString:@" |\n"];
         firstRow = NO;
     }
     
