@@ -17,6 +17,10 @@
 		83A686871341795E0038E7A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A686851341795E0038E7A3 /* InfoPlist.strings */; };
 		83A6868A1341795E0038E7A3 /* CSVToTextileTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 83A686891341795E0038E7A3 /* CSVToTextileTests.h */; };
 		83A6868C1341795E0038E7A3 /* CSVToTextileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A6868B1341795E0038E7A3 /* CSVToTextileTests.m */; };
+		83A686981341807F0038E7A3 /* CSVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A686961341807E0038E7A3 /* CSVController.m */; };
+		83A686991341807F0038E7A3 /* CSVController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A686971341807F0038E7A3 /* CSVController.xib */; };
+		83A6869B134197A50038E7A3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83A6869A134197A50038E7A3 /* icon.icns */; };
+		83A6869D134197B60038E7A3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83A6869C134197B60038E7A3 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +39,25 @@
 		83A686641341795D0038E7A3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		83A686651341795D0038E7A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		83A686661341795D0038E7A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		83A686691341795D0038E7A3 /* CSVToTextile-Info.plist */ = {isa = PBXFileReference; path = "CSVToTextile-Info.plist"; sourceTree = "<group>"; };
+		83A686691341795D0038E7A3 /* CSVToTextile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSVToTextile-Info.plist"; sourceTree = "<group>"; };
 		83A6866B1341795D0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		83A6866D1341795D0038E7A3 /* CSVToTextile-Prefix.pch */ = {isa = PBXFileReference; path = "CSVToTextile-Prefix.pch"; sourceTree = "<group>"; };
+		83A6866D1341795D0038E7A3 /* CSVToTextile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSVToTextile-Prefix.pch"; sourceTree = "<group>"; };
 		83A6866E1341795D0038E7A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83A686711341795D0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		83A686731341795D0038E7A3 /* CSVToTextileAppDelegate.h */ = {isa = PBXFileReference; path = CSVToTextileAppDelegate.h; sourceTree = "<group>"; };
+		83A686731341795D0038E7A3 /* CSVToTextileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVToTextileAppDelegate.h; sourceTree = "<group>"; };
 		83A686741341795D0038E7A3 /* CSVToTextileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSVToTextileAppDelegate.m; sourceTree = "<group>"; };
 		83A686771341795E0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		83A6867E1341795E0038E7A3 /* CSVToTextileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVToTextileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A686841341795E0038E7A3 /* CSVToTextileTests-Info.plist */ = {isa = PBXFileReference; path = "CSVToTextileTests-Info.plist"; sourceTree = "<group>"; };
+		83A686841341795E0038E7A3 /* CSVToTextileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSVToTextileTests-Info.plist"; sourceTree = "<group>"; };
 		83A686861341795E0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		83A686881341795E0038E7A3 /* CSVToTextileTests-Prefix.pch */ = {isa = PBXFileReference; path = "CSVToTextileTests-Prefix.pch"; sourceTree = "<group>"; };
+		83A686881341795E0038E7A3 /* CSVToTextileTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSVToTextileTests-Prefix.pch"; sourceTree = "<group>"; };
 		83A686891341795E0038E7A3 /* CSVToTextileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVToTextileTests.h; sourceTree = "<group>"; };
 		83A6868B1341795E0038E7A3 /* CSVToTextileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSVToTextileTests.m; sourceTree = "<group>"; };
+		83A686951341807E0038E7A3 /* CSVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVController.h; sourceTree = "<group>"; };
+		83A686961341807E0038E7A3 /* CSVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVController.m; sourceTree = "<group>"; };
+		83A686971341807F0038E7A3 /* CSVController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSVController.xib; sourceTree = "<group>"; };
+		83A6869A134197A50038E7A3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		83A6869C134197B60038E7A3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,7 @@
 		83A686521341795D0038E7A3 = {
 			isa = PBXGroup;
 			children = (
+				83A6869C134197B60038E7A3 /* icon.icns */,
 				83A686671341795D0038E7A3 /* CSVToTextile */,
 				83A686821341795E0038E7A3 /* CSVToTextileTests */,
 				83A686601341795D0038E7A3 /* Frameworks */,
@@ -112,9 +122,13 @@
 		83A686671341795D0038E7A3 /* CSVToTextile */ = {
 			isa = PBXGroup;
 			children = (
+				83A6869A134197A50038E7A3 /* icon.icns */,
 				83A686731341795D0038E7A3 /* CSVToTextileAppDelegate.h */,
 				83A686741341795D0038E7A3 /* CSVToTextileAppDelegate.m */,
 				83A686761341795E0038E7A3 /* MainMenu.xib */,
+				83A686951341807E0038E7A3 /* CSVController.h */,
+				83A686961341807E0038E7A3 /* CSVController.m */,
+				83A686971341807F0038E7A3 /* CSVController.xib */,
 				83A686681341795D0038E7A3 /* Supporting Files */,
 			);
 			path = CSVToTextile;
@@ -222,6 +236,9 @@
 				83A6866C1341795D0038E7A3 /* InfoPlist.strings in Resources */,
 				83A686721341795D0038E7A3 /* Credits.rtf in Resources */,
 				83A686781341795E0038E7A3 /* MainMenu.xib in Resources */,
+				83A686991341807F0038E7A3 /* CSVController.xib in Resources */,
+				83A6869B134197A50038E7A3 /* icon.icns in Resources */,
+				83A6869D134197B60038E7A3 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +276,7 @@
 			files = (
 				83A6866F1341795D0038E7A3 /* main.m in Sources */,
 				83A686751341795D0038E7A3 /* CSVToTextileAppDelegate.m in Sources */,
+				83A686981341807F0038E7A3 /* CSVController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
