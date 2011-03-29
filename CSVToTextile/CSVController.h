@@ -13,11 +13,14 @@
     NSTextField * sourceTextField;
     NSTextField * outputTextField;
     NSTextField * label;
+    
+    NSProgressIndicator * indicator;
 }
 
 @property(nonatomic, retain) IBOutlet NSTextField * sourceTextField;
 @property(nonatomic, retain) IBOutlet NSTextField * outputTextField;
 @property(nonatomic, retain) IBOutlet NSTextField * label;
+@property(nonatomic, retain) IBOutlet NSProgressIndicator * indicator;
 
 - (IBAction)openDocument:(id)sender;
 - (IBAction)doConversion:(id)sender;

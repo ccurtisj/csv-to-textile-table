@@ -10,7 +10,7 @@
 
 
 @implementation CSVController
-@synthesize sourceTextField, outputTextField, label;
+@synthesize sourceTextField, outputTextField, label, indicator;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -36,6 +36,8 @@
 }
 
 - (IBAction)doConversion:(id)sender{
+    [indicator setHidden:NO];
+    [indicator startAnimation:nil];
     NSString * output = @"";
     
     NSString * input = [sourceTextField stringValue];
@@ -69,6 +71,8 @@
     [label setHidden:NO];
     [self performSelector:@selector(hideLabel:) withObject:nil afterDelay:2];
     
+    [indicator setHidden:YES];
+    [indicator stopAnimation:nil];
 }
 
 - (void)hideLabel:(id)sender{
