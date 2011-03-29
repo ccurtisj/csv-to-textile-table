@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A686621341795D0038E7A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A686611341795D0038E7A3 /* Cocoa.framework */; };
+		83A6866C1341795D0038E7A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A6866A1341795D0038E7A3 /* InfoPlist.strings */; };
+		83A6866F1341795D0038E7A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A6866E1341795D0038E7A3 /* main.m */; };
+		83A686721341795D0038E7A3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 83A686701341795D0038E7A3 /* Credits.rtf */; };
+		83A686751341795D0038E7A3 /* CSVToTextileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A686741341795D0038E7A3 /* CSVToTextileAppDelegate.m */; };
+		83A686781341795E0038E7A3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A686761341795E0038E7A3 /* MainMenu.xib */; };
+		83A6867F1341795E0038E7A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A686611341795D0038E7A3 /* Cocoa.framework */; };
+		83A686871341795E0038E7A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A686851341795E0038E7A3 /* InfoPlist.strings */; };
+		83A6868A1341795E0038E7A3 /* CSVToTextileTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 83A686891341795E0038E7A3 /* CSVToTextileTests.h */; };
+		83A6868C1341795E0038E7A3 /* CSVToTextileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A6868B1341795E0038E7A3 /* CSVToTextileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A686801341795E0038E7A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A686541341795D0038E7A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A6865C1341795D0038E7A3;
+			remoteInfo = CSVToTextile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83A6865D1341795D0038E7A3 /* CSVToTextile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSVToTextile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A686611341795D0038E7A3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		83A686641341795D0038E7A3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		83A686651341795D0038E7A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		83A686661341795D0038E7A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83A686691341795D0038E7A3 /* CSVToTextile-Info.plist */ = {isa = PBXFileReference; path = "CSVToTextile-Info.plist"; sourceTree = "<group>"; };
+		83A6866B1341795D0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A6866D1341795D0038E7A3 /* CSVToTextile-Prefix.pch */ = {isa = PBXFileReference; path = "CSVToTextile-Prefix.pch"; sourceTree = "<group>"; };
+		83A6866E1341795D0038E7A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A686711341795D0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		83A686731341795D0038E7A3 /* CSVToTextileAppDelegate.h */ = {isa = PBXFileReference; path = CSVToTextileAppDelegate.h; sourceTree = "<group>"; };
+		83A686741341795D0038E7A3 /* CSVToTextileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSVToTextileAppDelegate.m; sourceTree = "<group>"; };
+		83A686771341795E0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		83A6867E1341795E0038E7A3 /* CSVToTextileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVToTextileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A686841341795E0038E7A3 /* CSVToTextileTests-Info.plist */ = {isa = PBXFileReference; path = "CSVToTextileTests-Info.plist"; sourceTree = "<group>"; };
+		83A686861341795E0038E7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A686881341795E0038E7A3 /* CSVToTextileTests-Prefix.pch */ = {isa = PBXFileReference; path = "CSVToTextileTests-Prefix.pch"; sourceTree = "<group>"; };
+		83A686891341795E0038E7A3 /* CSVToTextileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVToTextileTests.h; sourceTree = "<group>"; };
+		83A6868B1341795E0038E7A3 /* CSVToTextileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSVToTextileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A6865A1341795D0038E7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A686621341795D0038E7A3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6867A1341795E0038E7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6867F1341795E0038E7A3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A686521341795D0038E7A3 = {
+			isa = PBXGroup;
+			children = (
+				83A686671341795D0038E7A3 /* CSVToTextile */,
+				83A686821341795E0038E7A3 /* CSVToTextileTests */,
+				83A686601341795D0038E7A3 /* Frameworks */,
+				83A6865E1341795D0038E7A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A6865E1341795D0038E7A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A6865D1341795D0038E7A3 /* CSVToTextile.app */,
+				83A6867E1341795E0038E7A3 /* CSVToTextileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A686601341795D0038E7A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A686611341795D0038E7A3 /* Cocoa.framework */,
+				83A686631341795D0038E7A3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A686631341795D0038E7A3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A686641341795D0038E7A3 /* AppKit.framework */,
+				83A686651341795D0038E7A3 /* CoreData.framework */,
+				83A686661341795D0038E7A3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		83A686671341795D0038E7A3 /* CSVToTextile */ = {
+			isa = PBXGroup;
+			children = (
+				83A686731341795D0038E7A3 /* CSVToTextileAppDelegate.h */,
+				83A686741341795D0038E7A3 /* CSVToTextileAppDelegate.m */,
+				83A686761341795E0038E7A3 /* MainMenu.xib */,
+				83A686681341795D0038E7A3 /* Supporting Files */,
+			);
+			path = CSVToTextile;
+			sourceTree = "<group>";
+		};
+		83A686681341795D0038E7A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A686691341795D0038E7A3 /* CSVToTextile-Info.plist */,
+				83A6866A1341795D0038E7A3 /* InfoPlist.strings */,
+				83A6866D1341795D0038E7A3 /* CSVToTextile-Prefix.pch */,
+				83A6866E1341795D0038E7A3 /* main.m */,
+				83A686701341795D0038E7A3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A686821341795E0038E7A3 /* CSVToTextileTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A686891341795E0038E7A3 /* CSVToTextileTests.h */,
+				83A6868B1341795E0038E7A3 /* CSVToTextileTests.m */,
+				83A686831341795E0038E7A3 /* Supporting Files */,
+			);
+			path = CSVToTextileTests;
+			sourceTree = "<group>";
+		};
+		83A686831341795E0038E7A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A686841341795E0038E7A3 /* CSVToTextileTests-Info.plist */,
+				83A686851341795E0038E7A3 /* InfoPlist.strings */,
+				83A686881341795E0038E7A3 /* CSVToTextileTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A6865C1341795D0038E7A3 /* CSVToTextile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A6868F1341795E0038E7A3 /* Build configuration list for PBXNativeTarget "CSVToTextile" */;
+			buildPhases = (
+				83A686591341795D0038E7A3 /* Sources */,
+				83A6865A1341795D0038E7A3 /* Frameworks */,
+				83A6865B1341795D0038E7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSVToTextile;
+			productName = CSVToTextile;
+			productReference = 83A6865D1341795D0038E7A3 /* CSVToTextile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A6867D1341795E0038E7A3 /* CSVToTextileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A686921341795E0038E7A3 /* Build configuration list for PBXNativeTarget "CSVToTextileTests" */;
+			buildPhases = (
+				83A686791341795E0038E7A3 /* Sources */,
+				83A6867A1341795E0038E7A3 /* Frameworks */,
+				83A6867B1341795E0038E7A3 /* Resources */,
+				83A6867C1341795E0038E7A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A686811341795E0038E7A3 /* PBXTargetDependency */,
+			);
+			name = CSVToTextileTests;
+			productName = CSVToTextileTests;
+			productReference = 83A6867E1341795E0038E7A3 /* CSVToTextileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A686541341795D0038E7A3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 83A686571341795D0038E7A3 /* Build configuration list for PBXProject "CSVToTextile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83A686521341795D0038E7A3;
+			productRefGroup = 83A6865E1341795D0038E7A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A6865C1341795D0038E7A3 /* CSVToTextile */,
+				83A6867D1341795E0038E7A3 /* CSVToTextileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A6865B1341795D0038E7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6866C1341795D0038E7A3 /* InfoPlist.strings in Resources */,
+				83A686721341795D0038E7A3 /* Credits.rtf in Resources */,
+				83A686781341795E0038E7A3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A6867B1341795E0038E7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A686871341795E0038E7A3 /* InfoPlist.strings in Resources */,
+				83A6868A1341795E0038E7A3 /* CSVToTextileTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83A6867C1341795E0038E7A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A686591341795D0038E7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6866F1341795D0038E7A3 /* main.m in Sources */,
+				83A686751341795D0038E7A3 /* CSVToTextileAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A686791341795E0038E7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6868C1341795E0038E7A3 /* CSVToTextileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A686811341795E0038E7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A6865C1341795D0038E7A3 /* CSVToTextile */;
+			targetProxy = 83A686801341795E0038E7A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83A6866A1341795D0038E7A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A6866B1341795D0038E7A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83A686701341795D0038E7A3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A686711341795D0038E7A3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		83A686761341795E0038E7A3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A686771341795E0038E7A3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		83A686851341795E0038E7A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A686861341795E0038E7A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A6868D1341795E0038E7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83A6868E1341795E0038E7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83A686901341795E0038E7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVToTextile/CSVToTextile-Prefix.pch";
+				INFOPLIST_FILE = "CSVToTextile/CSVToTextile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83A686911341795E0038E7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVToTextile/CSVToTextile-Prefix.pch";
+				INFOPLIST_FILE = "CSVToTextile/CSVToTextile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83A686931341795E0038E7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSVToTextile.app/Contents/MacOS/CSVToTextile";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVToTextileTests/CSVToTextileTests-Prefix.pch";
+				INFOPLIST_FILE = "CSVToTextileTests/CSVToTextileTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		83A686941341795E0038E7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSVToTextile.app/Contents/MacOS/CSVToTextile";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVToTextileTests/CSVToTextileTests-Prefix.pch";
+				INFOPLIST_FILE = "CSVToTextileTests/CSVToTextileTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A686571341795D0038E7A3 /* Build configuration list for PBXProject "CSVToTextile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A6868D1341795E0038E7A3 /* Debug */,
+				83A6868E1341795E0038E7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A6868F1341795E0038E7A3 /* Build configuration list for PBXNativeTarget "CSVToTextile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A686901341795E0038E7A3 /* Debug */,
+				83A686911341795E0038E7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83A686921341795E0038E7A3 /* Build configuration list for PBXNativeTarget "CSVToTextileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A686931341795E0038E7A3 /* Debug */,
+				83A686941341795E0038E7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A686541341795D0038E7A3 /* Project object */;
+}
